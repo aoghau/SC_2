@@ -46,6 +46,6 @@ public final class Product implements Serializable {
 
     @Override
     public String toString() {
-        return System.out.println("Product: name = " + name + ", cost = " + cost + ", street = " + destination.getStreet() + ", number = " + destination.getNumber()" );
+        return "Product: name = " + name + ", cost = " + cost + ", street = " + destination.getStreet() + ", number = " + destination.getNumber()";
     }
 }
